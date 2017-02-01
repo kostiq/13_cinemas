@@ -3,7 +3,6 @@ import argparse
 import re
 from operator import itemgetter
 from bs4 import BeautifulSoup
-from kinopoisk.movie import Movie
 
 
 def fetch_afisha_page():
@@ -57,7 +56,7 @@ def get_top_10_movies(movies, arthouse):
 
 def output_movies_to_console(movies, arthouse):
     for movie in movies_list:
-        print '{} {}'.format(movie[0], movie[1])
+        print ('{} {}'.format(movie[0], movie[1]))
 
 
 if __name__ == '__main__':
