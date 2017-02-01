@@ -1,3 +1,2 @@
-kinopoiskpy==0.6.7
 requests==2.12.5
 beautifulsoup4==4.4.1
